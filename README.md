@@ -22,7 +22,8 @@ Combine KCF tracker (fast but not stable under occlusion) with YOLOv3 detector (
 * Perform tracking for in-between frames
 
 ## Video Demo
-Click here for the video demo
+Click here for the video demo  
+https://youtu.be/PDT-8IAGiLw
 
 
 * Blue bounding box:  YOLOv3 detector in use
