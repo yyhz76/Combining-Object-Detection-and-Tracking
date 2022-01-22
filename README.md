@@ -31,9 +31,14 @@ Click here for the video demo
 
 ## Observations
 The video demo link above combines the following 3 cases together:
-  * Top: KCF tracker alone: 		Highest FPS (frame per second), but the tracker fails after encountering occlusion
-  * Center: TLD tracker alone:		Accuracy is better than KCF alone, but is not stable and produces lots of false positives. Performance is slow (Low FPS). 
-  * Bottom: KCF tracker + YOLOv3 detector:	Accuracy is much better than TLD alone, as the detector can retrieve the correct location of the ball if KCF tracker fails. Performance is much faster than TLD alone since most of the time KCF tracker does the work. This is a combination of the advantages from both KCF tracker (performance) and YOLOv3 detector (accuracy).	
+  * **Top**: _KCF tracker alone_:  
+  Highest FPS (frame per second), but the tracker fails after encountering occlusion
+  * **Center**: _TLD tracker alone_:  
+  Accuracy is better than KCF tracker alone, but is not stable and produces lots of false positives. Performance is slow (Low FPS). 
+  * **Bottom**: _KCF tracker + YOLOv3 detector_:  
+  Accuracy is much better than TLD tracker alone, as the detector can retrieve the correct location of the ball if KCF tracker fails. Performance is much faster than TLD alone since most of the time KCF tracker does the work. This is a combination of the advantages from both KCF tracker (performance) and YOLOv3 detector (accuracy).	
 
-![alt text](https://github.com/yyhz76/combining-detection-and-tracking/blob/main/images/combined.png)<br /><br /> 
+![alt text](https://github.com/yyhz76/combining-detection-and-tracking/blob/main/images/combined.png)<br /><br />   
+
+Image and video copyrights belong to https://learnopencv.com/
 
