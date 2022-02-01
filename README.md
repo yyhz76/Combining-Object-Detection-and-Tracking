@@ -1,5 +1,5 @@
 # Combining-Detection-and-Tracking
-Implementing a fused object detection + tracking algorithm so that it performs better in terms of both speed and accuracy than a single object tracker.
+Implementing a fused object detection + tracking algorithm which performs better in terms of both speed and accuracy compared to a single object tracker.
 
 ## TLD tracker
 The TLD (Tracking, Learning and Detection) tracker is robust for objects under occlusion, but produces lots of false positives and is quite slow.
