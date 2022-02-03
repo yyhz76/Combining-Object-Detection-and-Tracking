@@ -229,10 +229,7 @@ int main() {
 
 		// Exit if ESC pressed
 		int k = waitKey(1);
-		if (k == 27)
-		{
-			break;
-		}
+		if (k == 27) break;
 	}
 
 	video.release();
